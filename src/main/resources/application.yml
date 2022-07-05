@@ -1,0 +1,15 @@
+server:
+  port: 8181
+
+broker:
+  host: b-16ae9903-6a2c-42c2-b0e7-ddb0083ca3d8-1.mq.eu-west-1.amazonaws.com
+  port: 61614
+  username: call-center-notification-qa-1
+  password: call-center-notification-qa-1
+
+com:
+  sun:
+    management:
+      jmxremote:
+        local:
+          only: false
